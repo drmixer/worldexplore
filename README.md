@@ -11,5 +11,3 @@ This repository contains Lua modules for the primitive quadrant of the *Brave Ne
 - `InventoryManager` – inventory helper functions for adding, removing, and checking items.
 - `TradeService` – a simple item-for-item trade validator.
 - `ForagingSystem` – spawns plants and handles harvesting with regrowth timers.
-
-These modules are designed for use within `ReplicatedStorage/Modules` in Roblox Studio.
