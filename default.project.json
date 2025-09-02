@@ -1,0 +1,15 @@
+{
+  "name": "WorldExplore",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Init": {
+        "$path": "ServerScriptService/init.server.lua"
+      }
+    }
+  }
+}

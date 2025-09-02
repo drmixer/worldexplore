@@ -1,0 +1,26 @@
+{
+  "name": "Roblox (Rojo) – Codespaces",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.eol": "\n",
+        "editor.tabSize": 2,
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "sumneko.lua",
+        "vadimcn.vscode-lldb",
+        "GitHub.copilot",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
